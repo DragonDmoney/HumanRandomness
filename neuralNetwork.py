@@ -552,3 +552,4 @@ print(f'TEST RESULTS: ' +
       f'loss: {loss:.3f}, ' +
       f'lr: {optimizer.current_learning_rate}, ' +
       f'highest accuracy: '+str(max(accuracies)),str(accuracies.index(max(accuracies))))
+print("test done")
