@@ -1,4 +1,4 @@
-# Human Randomness
+# Predicting Human Randomness
 This project is dedicated to predicting human randomness with machine learning.
 
 ### Introduction
