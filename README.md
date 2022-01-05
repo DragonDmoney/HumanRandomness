@@ -29,4 +29,4 @@ I would like to discover
 ### How you can help
 This project has pushed the limits of the programming and problem solving ability, if you would like to help me with this project you can help by adding your own random number sequences to the repository in /data/<your-name>/inputTrain(Test).txt. Or you can help me do experiments and try to get the accuracy of the neural network as high as possible along with many other things.
  
-- Dorian
+- Pierre
