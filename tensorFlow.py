@@ -6,7 +6,7 @@ import os
 import dill
 import weakref
 
-savePath = "./data/dorian/models/"
+savePath = "./data/human/models/"
 numbersInX=3
 batchSize = 71
 os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
@@ -45,7 +45,7 @@ def getData(trainingFile,testFile, numbersInX):
     return np.array(X)[trainP],np.array(y)[trainP],np.array(XTest)[testP],np.array(yTest)[testP]
     # return np.array(X),np.array(y),np.array(XTest),np.array(yTest)
 
-x_train, y_train,x_test, y_test = getData(trainingFile="./data/dorian/inputTrain.txt", testFile="./data/dorian/inputTest.txt",numbersInX=numbersInX)
+x_train, y_train,x_test, y_test = getData(trainingFile="./data/human/inputTrain.txt", testFile="./data/human/inputTest.txt",numbersInX=numbersInX)
 
 model = tf.keras.Sequential([
   tf.keras.layers.InputLayer(input_shape=(numbersInX)),

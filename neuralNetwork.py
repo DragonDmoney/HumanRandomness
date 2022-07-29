@@ -459,7 +459,7 @@ class neuralNetwork():
     def createNN(self):
         # Create dataset
         # X, y = vertical_data(samples=100, classes=3)
-        self.X,self.y,self.X_test,self.y_test = getData(trainingFile="./data/dorian/inputTrain.txt", testFile="./data/dorian/inputTest.txt")
+        self.X,self.y,self.X_test,self.y_test = getData(trainingFile="./data/human/inputTrain.txt", testFile="./data/human/inputTest.txt")
 
         # Create Dense layer with 2 input features and 3 output values
         self.dense1 = Layer_Dense(3, 18)
